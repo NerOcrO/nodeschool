@@ -1,7 +1,7 @@
 const http = require('http')
 const url = require('url')
 
-const port = +process.argv[2]
+const port = Number(process.argv[2])
 
 const server = http.createServer((request, response) => {
   const parsedUrl = url.parse(request.url, true)

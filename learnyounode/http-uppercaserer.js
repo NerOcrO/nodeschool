@@ -1,6 +1,6 @@
 const http = require('http')
 
-const port = +process.argv[2]
+const port = Number(process.argv[2])
 
 const server = http.createServer((request, response) => {
   if (request.method !== 'POST') {

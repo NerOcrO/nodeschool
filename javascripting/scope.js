@@ -9,7 +9,7 @@ var c = 3;
   (function secondFunction() {
     var b = 8
 
-    console.log('a: ' + a + ', b: ' + b + ', c: ' + c);
+    console.log(`a: ${a}, b: ${b}, c: ${c}`);
 
     (function thirdFunction() {
       var a = 7

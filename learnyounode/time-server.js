@@ -1,6 +1,6 @@
 const net = require('net')
 
-const port = +process.argv[2]
+const port = Number(process.argv[2])
 
 function zeroFill(number) {
   return (`0${number}`).slice(-2)
