@@ -1,23 +1,23 @@
-var a = 1
-var b = 2
-var c = 3;
+let a = 1
+let b = 2
+let c = 3;
 
 (function firstFunction() {
-  var b = 5
-  var c = 6;
+  let b = 5
+  let c = 6;
 
   (function secondFunction() {
-    var b = 8
+    let b = 8
 
     console.log(`a: ${a}, b: ${b}, c: ${c}`);
 
     (function thirdFunction() {
-      var a = 7
-      var c = 9;
+      let a = 7
+      let c = 9;
 
       (function fourthFunction() {
-        var a = 1
-        var c = 8
+        let a = 1
+        let c = 8
       })()
     })()
   })()

@@ -1,2 +1,2 @@
-var someString = 'this is a string'
+const someString = 'this is a string'
 console.log(someString)
